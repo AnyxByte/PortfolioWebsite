@@ -30,10 +30,21 @@ export const Projects = () => {
           content="Projects I worked on. Each of them containing its own case study."
         />
       </motion.div>
-      <div className="flex flex-col gap-7 md:flex-row">
-        {projectsData.map((project, index) => (
-          <Project key={project.title} project={project} index={index} />
-        ))}
+      <div className="flex flex-col gap-7">
+        <div className="flex flex-col gap-7 md:flex-row">
+          {projectsData
+            .slice(0, Math.ceil(projectsData.length / 2))
+            .map((project, index) => (
+              <Project key={project.title} project={project} index={index} />
+            ))}
+        </div>
+        <div className="flex flex-col gap-7 md:flex-row">
+          {projectsData
+            .slice(Math.ceil(projectsData.length / 2))
+            .map((project, index) => (
+              <Project key={project.title} project={project} index={index} />
+            ))}
+        </div>
       </div>
     </section>
   );

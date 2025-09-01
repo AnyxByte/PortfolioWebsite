@@ -51,7 +51,6 @@ export const projectsData = [
     technologies: [
       'React.js',
       'Express.js',
-      'Socket.io',
       'Shadcn/ui',
       'Tailwind',
       'MongoDB',
@@ -60,6 +59,40 @@ export const projectsData = [
     links: {
       preview: 'https://blogging-frontend-blue.vercel.app/',
       github: 'https://github.com/EXTENSION456/blogging-frontend',
+    },
+  },
+  {
+    image: '/images/project3.png',
+    title: 'Portfolio Website',
+    description:
+      'A personal portfolio website showcasing projects and skills, built with Next.js and styled using Tailwind CSS and Shadcn/ui.',
+    technologies: [
+      'Next.js',
+      'Tailwind',
+      'Shadcn/ui',
+      'TypeScript',
+      'React.js',
+    ],
+    links: {
+      preview: 'https://portfolio-website-tau-one-82.vercel.app/', // replace with your actual portfolio link
+      github: 'https://github.com/AnyxByte/PortfolioWebsite', // replace with your repo link
+    },
+  },
+  {
+    image: '/images/project4.png',
+    title: 'AI Note-Taking App',
+    description:
+      'An AI-powered note-taking application built with Next.js, integrated with Gemini APIs, and deployed on Vercel.',
+    technologies: [
+      'Next.js',
+      'Tailwind',
+      'Shadcn/ui',
+      'Gemini AI API',
+      'MongoDB',
+    ],
+    links: {
+      preview: 'https://ai-note-taking-app-xi.vercel.app/', // your live app link
+      github: 'https://github.com/AnyxByte/AI-Note-Taking-App', // replace with your repo link
     },
   },
 ] as const;
