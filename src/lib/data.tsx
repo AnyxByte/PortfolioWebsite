@@ -107,7 +107,7 @@ export const projectsData = [
       'Redis',
       'MongoDB',
       'JWT Auth',
-      'React.js'
+      'React.js',
     ],
     links: {
       preview: 'https://real-time-multiplayer-quiz-app.vercel.app/', // your live app link
@@ -139,7 +139,7 @@ export const experiencesData = [
       'Tailwind',
       'MongoDb',
     ],
-  },
+  }
 ] as const;
 
 export const skillsData = [
