@@ -89,7 +89,7 @@ export const Intro = () => {
         </Button>
         <Button variant="outline" size="icon" asChild>
           <Link
-            href="https://github.com/EXTENSION456"
+            href="https://github.com/AnyxByte"
             aria-label="Github"
             target="_blank"
           >

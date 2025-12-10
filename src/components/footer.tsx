@@ -5,7 +5,7 @@ export const Footer = () => {
     <footer className="text-muted-foreground my-2 text-sm">
       © {new Date().getFullYear()}{' '}
       <Button variant="link" className="text-muted-foreground p-0 font-medium">
-        <a href="https://github.com/EXTENSION456">Suprodip Bhattacharjee</a>
+        <a href="https://github.com/AnyxByte">Suprodip Bhattacharjee</a>
       </Button>
       . All rights reserved.
     </footer>

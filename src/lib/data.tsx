@@ -40,7 +40,7 @@ export const projectsData = [
     ],
     links: {
       preview: 'https://real-time-chatting-application-delta.vercel.app/', // replace with your deployed chat app link
-      github: 'https://github.com/EXTENSION456/real-time-chatting-application', // replace with your repo link
+      github: 'https://github.com/AnyxByte/real-time-chatting-application', // replace with your repo link
     },
   },
   {
@@ -58,7 +58,7 @@ export const projectsData = [
     ],
     links: {
       preview: 'https://blogging-frontend-blue.vercel.app/',
-      github: 'https://github.com/EXTENSION456/blogging-frontend',
+      github: 'https://github.com/AnyxByte/blogging-frontend',
     },
   },
   {
@@ -93,6 +93,25 @@ export const projectsData = [
     links: {
       preview: 'https://ai-note-taking-app-xi.vercel.app/', // your live app link
       github: 'https://github.com/AnyxByte/AI-Note-Taking-App', // replace with your repo link
+    },
+  },
+  {
+    image: '/images/project5.png',
+    title: 'Real-Time Multiplayer Quiz App',
+    description:
+      'A fast, real-time multiplayer quiz platform built with WebSockets and Redis, featuring room-based gameplay, live scoring, and JWT-secured access.',
+    technologies: [
+      'Node.js',
+      'Express.js',
+      'WebSockets',
+      'Redis',
+      'MongoDB',
+      'JWT Auth',
+      'React.js'
+    ],
+    links: {
+      preview: 'https://real-time-multiplayer-quiz-app.vercel.app/', // your live app link
+      github: 'https://github.com/AnyxByte/Real-time-multiplayer-quiz-app', // replace with your repo link
     },
   },
 ] as const;
