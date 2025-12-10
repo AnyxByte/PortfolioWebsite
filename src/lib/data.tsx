@@ -139,7 +139,7 @@ export const experiencesData = [
       'Tailwind',
       'MongoDb',
     ],
-  }
+  },
 ] as const;
 
 export const skillsData = [
