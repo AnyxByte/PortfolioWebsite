@@ -25,6 +25,62 @@ export const links = [
 
 export const projectsData = [
   {
+    image: '/images/project6.png',
+    title: 'Paytm-Clone',
+    description:
+      'A full-stack peer-to-peer payment application based on Paytm, featuring wallet creation, Razorpay deposits, P2P transfers, and a double-entry ledger system.',
+    technologies: [
+      'Next.js',
+      'Express.js',
+      'MongoDB',
+      'Razorpay',
+      'Tailwind',
+      'JWT Auth',
+      'Node.js',
+    ],
+    links: {
+      preview: 'https://paytm-clone-eight-gray.vercel.app/',
+      github: 'https://github.com/AnyxByte/Paytm-Clone',
+    },
+  },
+  {
+    image: '/images/project5.png',
+    title: 'Real-Time Multiplayer Quiz App',
+    description:
+      'A fast, real-time multiplayer quiz platform built with WebSockets and Redis, featuring room-based gameplay, live scoring, and JWT-secured access.',
+    technologies: [
+      'Node.js',
+      'Express.js',
+      'WebSockets',
+      'Redis',
+      'MongoDB',
+      'JWT Auth',
+      'React.js',
+    ],
+    links: {
+      preview: 'https://real-time-multiplayer-quiz-app.vercel.app/',
+      github: 'https://github.com/AnyxByte/Real-time-multiplayer-quiz-app',
+    },
+  },
+  {
+    image: '/images/project7.png',
+    title: 'Chess.com',
+    description:
+      'A simple real-time multiplayer chess game built using WebSockets. Players can create a room, share a room code with a friend, and play a live chess game with instant move updates.',
+    technologies: [
+      'React.js',
+      'React-chessboard',
+      'Socket.IO',
+      'Node.js',
+      'Express.js',
+      'Chess.js',
+    ],
+    links: {
+      preview: 'https://multiplayer-chess-game-two.vercel.app/',
+      github: 'https://github.com/AnyxByte/Multiplayer-chess-game',
+    },
+  },
+  {
     image: '/images/project2.png',
     title: 'SlangZone',
     description:
@@ -39,8 +95,8 @@ export const projectsData = [
       'Node.js',
     ],
     links: {
-      preview: 'https://real-time-chatting-application-delta.vercel.app/', // replace with your deployed chat app link
-      github: 'https://github.com/AnyxByte/real-time-chatting-application', // replace with your repo link
+      preview: 'https://real-time-chatting-application-delta.vercel.app/',
+      github: 'https://github.com/AnyxByte/real-time-chatting-application',
     },
   },
   {
@@ -62,23 +118,6 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/project3.png',
-    title: 'Portfolio Website',
-    description:
-      'A personal portfolio website showcasing projects and skills, built with Next.js and styled using Tailwind CSS and Shadcn/ui.',
-    technologies: [
-      'Next.js',
-      'Tailwind',
-      'Shadcn/ui',
-      'TypeScript',
-      'React.js',
-    ],
-    links: {
-      preview: 'https://portfolio-website-tau-one-82.vercel.app/', // replace with your actual portfolio link
-      github: 'https://github.com/AnyxByte/PortfolioWebsite', // replace with your repo link
-    },
-  },
-  {
     image: '/images/project4.png',
     title: 'AI Note-Taking App',
     description:
@@ -91,27 +130,8 @@ export const projectsData = [
       'MongoDB',
     ],
     links: {
-      preview: 'https://ai-note-taking-app-xi.vercel.app/', // your live app link
-      github: 'https://github.com/AnyxByte/AI-Note-Taking-App', // replace with your repo link
-    },
-  },
-  {
-    image: '/images/project5.png',
-    title: 'Real-Time Multiplayer Quiz App',
-    description:
-      'A fast, real-time multiplayer quiz platform built with WebSockets and Redis, featuring room-based gameplay, live scoring, and JWT-secured access.',
-    technologies: [
-      'Node.js',
-      'Express.js',
-      'WebSockets',
-      'Redis',
-      'MongoDB',
-      'JWT Auth',
-      'React.js',
-    ],
-    links: {
-      preview: 'https://real-time-multiplayer-quiz-app.vercel.app/', // your live app link
-      github: 'https://github.com/AnyxByte/Real-time-multiplayer-quiz-app', // replace with your repo link
+      preview: 'https://ai-note-taking-app-xi.vercel.app/',
+      github: 'https://github.com/AnyxByte/AI-Note-Taking-App',
     },
   },
 ] as const;
