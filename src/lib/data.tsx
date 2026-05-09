@@ -44,22 +44,22 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/project5.png',
-    title: 'Real-Time Multiplayer Quiz App',
+    image: '/images/project8.png',
+    title: 'AI-Powered Medical Research Assistant',
     description:
-      'A fast, real-time multiplayer quiz platform built with WebSockets and Redis, featuring room-based gameplay, live scoring, and JWT-secured access.',
+      'A high-performance research platform utilizing Retrieval-Augmented Generation (RAG). It implements vector embeddings to index medical literature, allowing Llama 3.2 to provide context-aware answers based on specific clinical datasets.',
     technologies: [
-      'Node.js',
-      'Express.js',
-      'WebSockets',
-      'Redis',
-      'MongoDB',
-      'JWT Auth',
       'React.js',
+      'Node.js',
+      'Ollama (Llama 3.2)',
+      'Vector Embeddings',
+      'Hugging Face API',
+      'MongoDB',
+      'Tailwind CSS',
     ],
     links: {
-      preview: 'https://real-time-multiplayer-quiz-app.vercel.app/',
-      github: 'https://github.com/AnyxByte/Real-time-multiplayer-quiz-app',
+      preview: 'https://hackathon-eight-sand.vercel.app/',
+      github: 'https://github.com/AnyxByte/Hackathon',
     },
   },
   {
@@ -81,6 +81,25 @@ export const projectsData = [
     },
   },
   {
+    image: '/images/project5.png',
+    title: 'Real-Time Multiplayer Quiz App',
+    description:
+      'A fast, real-time multiplayer quiz platform built with WebSockets and Redis, featuring room-based gameplay, live scoring, and JWT-secured access.',
+    technologies: [
+      'Node.js',
+      'Express.js',
+      'WebSockets',
+      'Redis',
+      'MongoDB',
+      'JWT Auth',
+      'React.js',
+    ],
+    links: {
+      preview: 'https://real-time-multiplayer-quiz-app.vercel.app/',
+      github: 'https://github.com/AnyxByte/Real-time-multiplayer-quiz-app',
+    },
+  },
+  {
     image: '/images/project2.png',
     title: 'SlangZone',
     description:
@@ -97,24 +116,6 @@ export const projectsData = [
     links: {
       preview: 'https://real-time-chatting-application-delta.vercel.app/',
       github: 'https://github.com/AnyxByte/real-time-chatting-application',
-    },
-  },
-  {
-    image: '/images/project1.png',
-    title: 'BlogIpsum',
-    description:
-      'A full-stack blogging application built with Next.js and Nest.js, featuring modern UI and database integration.',
-    technologies: [
-      'React.js',
-      'Express.js',
-      'Shadcn/ui',
-      'Tailwind',
-      'MongoDB',
-      'Node.js',
-    ],
-    links: {
-      preview: 'https://blogging-frontend-blue.vercel.app/',
-      github: 'https://github.com/AnyxByte/blogging-frontend',
     },
   },
   {
